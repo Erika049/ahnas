@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Carousel from './Caroussel';
 
 const Home = () => {
   return (
@@ -42,49 +43,65 @@ const Home = () => {
         </header>
 
         {/* Hero Section */}
-        <section className="bg-white py-16 text-center">
+        {/* <section className="bg-white py-16 text-center">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-gray-700 mb-4">Bienvenue chez AHNAS</h2>
             <p className="text-lg text-gray-600 mb-8">Notre mission est de venir en aide à ceux qui en ont le plus besoin à travers des projets humanitaires et solidaires.</p>
             <a href="#" className="bg-gray-500 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition duration-300">Découvrir nos projets</a>
+          </div>
+        </section> */}
+
+        {/* Carousel Section */}
+        <section className="py-0 bg-gray-100  w-full">
+          <div className="container mx-auto px-4">
+            <Carousel />
+          </div>
+        </section>
+
+        {/* Actualites blog */}
+        <section className="py-16 bg-gray-100">
+          <div className="container mx-auto px-4">
+            <h3 className="text-4xl font-bold  text-gray-600 mb-8">Actualités AHNAS</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              
+            </div>
+          </div>
+        </section>
+
+         {/* Call to Action */}
+         <section className="py-16 h-100 bg-gray-200 text-gray-600 text-center">
+          <div className="container mx-auto px-4">
+            <h3 className="text-6xl font-bold mb-4"><span className="text-blue-600">Rejoignez-nous</span> dans notre <span className="text-blue-600">mission</span> pour qu'<span className="text-blue-600">ensemble</span> l'on puisse continuer de mener à <span className="text-blue-600">bien</span> nos <span className="text-blue-600">initiatives</span>.</h3>
           </div>
         </section>
 
         {/* Projects Section */}
         <section className="py-16 bg-gray-100">
           <div className="container mx-auto px-4">
-            <h3 className="text-4xl font-bold text-center text-gray-800 mb-8">Nos secteurs d'activités</h3>
+            <h3 className="text-5xl font-bold  text-gray-600 mb-8">Nos secteurs d'activités</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Project 1 */}
               <div className="bg-white shadow-lg rounded-lg p-6">
               <img src="/images/ED.jpg" alt="Projet Education" className="mb-4 h-60 w-full object-cover rounded" />
-                <h4 className="text-2xl font-bold text-gray-700 mb-4">Education</h4>
+                <h4 className="text-2xl font-bold text-blue-600 mb-4">Education</h4>
                 <p className="text-gray-600">Soutenir l'accès à l'éducation pour les enfants dans les zones défavorisées.</p>
               </div>
               {/* Project 2 */}
               <div className="bg-white shadow-lg rounded-lg p-6">
               <img src="/images/SA.jpg" alt="Projet Sante" className="mb-4 h-60 w-full object-cover rounded" />
-                <h4 className="text-2xl font-bold text-gray-700 mb-4">Santé</h4>
+                <h4 className="text-2xl font-bold text-blue-600 mb-4">Santé</h4>
                 <p className="text-gray-600">Améliorer l'accès aux soins médicaux pour les populations vulnérables; et developper davantage la médécine traditionnelle.</p>
               </div>
               {/* Project 3 */}
               <div className="bg-white shadow-lg rounded-lg p-6">
               <img src="/images/EV.jpg" alt="Projet Environnement" className="mb-4 h-60 w-full object-cover rounded" />
-                <h4 className="text-2xl font-bold text-gray-700 mb-4">Environnement</h4>
+                <h4 className="text-2xl font-bold text-blue-600 mb-4">Environnement</h4>
                 <p className="text-gray-600">Promouvoir des initiatives écologiques pour protéger l'environnement.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Call to Action */}
-        <section className="py-16 bg-gray-700 text-white text-center">
-          <div className="container mx-auto px-4">
-            <h3 className="text-3xl font-bold mb-4">Rejoignez-nous dans notre mission</h3>
-            <p className="text-lg mb-8">Nous avons besoin de votre aide pour continuer à soutenir nos initiatives. Faites un don aujourd'hui et changez des vies.</p>
-            <a href="#" className="bg-white text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-100 transition duration-300">Faire un don</a>
-          </div>
-        </section>
       </main>
 
       <footer className="bg-gray-800 text-white py-6">
