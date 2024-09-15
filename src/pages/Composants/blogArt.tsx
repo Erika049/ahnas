@@ -149,7 +149,6 @@ const BlogSection = () => {
                   {article.title}
                 </h3>
               </Link>
-              <p className="text-gray-600 mt-4">{article.description}</p>
               <div className="mt-6 text-sm text-gray-500">
                 <span>{article.country} - {article.date}</span>
               </div>
