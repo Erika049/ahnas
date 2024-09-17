@@ -9,9 +9,9 @@ const Blog = () => {
         <meta name="description" content="En savoir plus sur l'histoire, la mission et l'équipe d'AHNAS." />
        </Head>
 
-       <main className="min-h-screen bg-gray-50">
+       <main className="min-h-screen bg-gray-50 pt-20">
         {/* Header */}
-        <header className="bg-gray-400 text-white">
+        <header className="bg-gray-400 text-white fixed top-0 left-0 w-full z-50">
           <div className="container mx-auto px-4 py-6 flex justify-between items-center">
             {/* Logo and Title */}
             <div className="flex items-center space-x-4">

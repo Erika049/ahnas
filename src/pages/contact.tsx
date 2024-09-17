@@ -13,7 +13,7 @@ const Contact = () => {
       </Head>
 
       {/* En-tête */}
-      <header className="bg-gray-400 text-white">
+      <header className="bg-gray-400 text-white ">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
           {/* Logo et Titre */}
           <div className="flex items-center space-x-4">
@@ -107,7 +107,7 @@ const Contact = () => {
                 </p>
                 <p className="mt-2 text-gray-600 flex items-center">
                   <MailIcon className="h-5 w-5 text-gray-800 mr-2" />
-                  <span className="font-semibold text-gray-800 mr-2">Email: </span> farisabdulrahman30@gmail.com
+                  <span className="font-semibold text-gray-800 mr-2">Email: </span> shayatoumaigari@gmail.com
                 </p>
               </div>
 

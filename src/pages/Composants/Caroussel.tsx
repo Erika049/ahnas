@@ -9,7 +9,7 @@ const Carousel = () => {
       content: 'Au cœur des urgences : les défis de l\'accès à l\'éducation',
       image: '/images/img3.jpg',
       buttons: [
-        { label: 'En savoir plus', link: '#', style: 'bg-blue-600 border border-white text-white hover:bg-blue-400 hover:text-white' }
+        { label: 'En savoir plus', link: '/info', style: 'bg-blue-600 border border-white text-white hover:bg-blue-400 hover:text-white' }
       ]
     },
     {
@@ -17,7 +17,7 @@ const Carousel = () => {
       content: 'Nos actions pour la santé',
       image: '/images/img2.jpg',
       buttons: [
-        { label: 'En savoir plus', link: '#', style: 'bg-blue-600 border border-white text-white hover:bg-blue-400 hover:text-white' }
+        { label: 'En savoir plus', link: '/info', style: 'bg-blue-600 border border-white text-white hover:bg-blue-400 hover:text-white' }
       ]
     },
     {
@@ -25,7 +25,7 @@ const Carousel = () => {
       content: 'Participez à nos activités',
       image: '/images/img1.jpg',
       buttons: [
-        { label: 'En savoir plus', link: '#', style: 'bg-blue-600 border border-white text-white hover:bg-blue-400 hover:text-white' }
+        { label: 'En savoir plus', link: '/info', style: 'bg-blue-600 border border-white text-white hover:bg-blue-400 hover:text-white' }
       ]
     },
   ];
