@@ -114,16 +114,9 @@ const About = () => {
           </div>
         </header>
 
-        {/* Banner Section */}
-        {/* <section className="bg-gray-500 text-white py-16 text-center">
-          <div className="container mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-4">À propos de nous</h1>
-            <p className="text-lg">Découvrez l'histoire et la mission de l'association AHNAS.</p>
-          </div>
-        </section> */}
 
         {/* Main Content */}
-        <section className="py-16 bg-white">
+        <section className="py-12 bg-white">
         <h3 className="text-5xl font-bold text-center text-gray-600 mb-8 py-5">Qui sommes-nous ?</h3>
 
           {/* Image */}
@@ -131,16 +124,16 @@ const About = () => {
               <Image
                 src="/images/img3.jpg" 
                 alt="Bannière AHNAS"
-                width={1600}
-                height={30}
-                className="object-cover rounded-lg mx-auto"
+                width={1000}
+                height={0}
+                className="object-cover rounded-lg h-[660px] w-screen"
               />
             
           
           <div className="container mx-auto px-4">
             {/* Historique */}
-            <div className="py-3 text-gray-600 mb-6">
-              <h3 className="py-5 text-3xl font-bold text-blue-600 ">Qu'est-ce-que l'AHNAS ?</h3>
+            <div className="py-5 text-gray-600 mb-8">
+              <h3 className="py-10 text-3xl font-bold text-blue-600 ">Qu'est-ce-que l'AHNAS ?</h3>
                 <p className=" text-gray-600 mb-4">
                 <span className="font-bold">Fondée en ------ </span>, l'Association d'Aide Humanitaire pour les Nécessiteux et les Sans-abri: AHNAS est une association 
                 apolitique regie par la loi N°90/053 du 19/12/1990, dont le siège social est à <span className="font-bold">Foumban en république du Cameroun</span>, 
@@ -153,7 +146,7 @@ const About = () => {
             </div>
 
             {/* Structure et Fonctionnement */}
-            <div className="text-gray-600 mb-">
+            <div className="text-gray-600 ">
               <h3 className=" text-3xl font-bold text-blue-600 mb-8">Structure et Fonctionnement</h3>
                 <p className="text-gray-600 mb-4">
                   AHNAS est dirigée par un conseil d'administration composé de membres expérimentés. Celle-ci est Structurée de manière à avoir :
